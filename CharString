@@ -1,0 +1,26 @@
+fun main() {
+   
+    var char:Char = '8'
+    /*Cuando convertimos un dato de tipo char a int debemos tener en cuenta la tabla ASCII ya que el 8 como tipo char tiene 
+     un valor de 56 en hexadecimal, en el ejemplo le restamos 48 y si imprimimos el valor de charToInt va a mostar 8 igual 
+     que la variable char que esta como tipo char.     
+    */
+    var charToInt:Int = char.toInt() - 48
+    
+    /*Est esta parte observamos que se puede hacer la suma de 8+8 por que la variable charToInt la convertimos a entero
+      
+      No podemos sumar datos de tipo char con datos de tipo int
+    */
+    var suma:Int = charToInt + 8
+    
+    println(char)
+    println(charToInt)
+    println(suma)
+    
+    //Una cadena se llena usando comillas dobles 
+    var cadena:String = "Jefry"
+    
+    //Colocamos los corchetes cuadrados para que muestre solamente la posicion 0 que en este caso seria la letra J
+    println(cadena[0])
+    
+}
