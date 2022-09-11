@@ -1,0 +1,18 @@
+/*Tipos de datos: Strings con secuencia de escape y Strings puros (raw strings)*/
+
+fun main() {
+   
+    /*La secuencia de escape nos sirve para dar un salto de linea con \n y el \t nos sirve para dar espacios de tabulador hay muchas 
+      secuencias de escape*/
+    
+    var cadena:String = "Jefry\n\tMateus"
+    
+    var cadena2:String = "Elda"
+    var cadena3:String = "Aguirre"
+    
+    /* de esta forma podemos llamar a cualquier varible sin tener que agregar + y despues el nombre de la variable
+       y tambien si queremos llamar la varibale con alguna funcion debe ir el signo $ seguido de {}
+    */
+    println("El nombre de mi mama es: $cadena2 y tiene ${cadena2.length} caracteres")
+    
+}
