@@ -1,0 +1,11 @@
+fun main() {
+    //De esta forma se define una variable, la cual su valor puede cambiar
+    var edadChoco = 2
+    
+    edadChoco = 5
+    //De esta forma se define una constante, la cual su valor es unico y no se 
+    val nombreChoco = "Choco"
+    
+    println("El nombre de mi mascota es "+nombreChoco+" y tiene  " + edadChoco+" años")
+    
+}
