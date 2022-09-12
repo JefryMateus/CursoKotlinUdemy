@@ -1,0 +1,30 @@
+//Estructuras de valor
+fun main() {
+var numeros = arrayOf(24,14,21)
+var numeroMayor = if((numeros.get(0)>numeros.get(1)) && (numeros.get(0)>numeros.get(2))) numeros[0] else if((numeros.get(1)>numeros.get(0)) && (numeros.get(1)>numeros.get(2))) numeros.get(1) else numeros.get(2)
+println("El numero mayor es $numeroMayor")
+
+var nombre = "Jefry"
+    
+    if(nombre == "Mateus" || nombre =="Jefry"){
+        println("El nombre si es Jefry ")
+    }else{
+        println("El nombre no es igual a Jefry")
+    }
+    
+    var animal:String = "Perro"
+    var raza:String = "Pincher"
+    
+    if(animal == "Perro" && raza == "Pitbull"){
+        println("Es un perro de raza pincher")
+    }else
+    println("Es otro animal")
+    
+    var animales:String = "Pajaro"
+    
+    if(animales == "Perro" || animales == "Gato"){
+        println("Es un perro o Gato")
+    }else{
+        println("Es un animal distinto a perro y gato")
+    }
+}
