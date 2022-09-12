@@ -1,0 +1,27 @@
+/*Estructuras de control:
+ Introduccion a operadores
+ aritmeticos:+ - / *
+ 
+ comparacion: < > >= <= == ,en comparacion se utilizan doble signo = ya que uno solo se utiliza para asignación
+ 
+ logicos: ! && ||
+ 
+ */
+fun main() {
+    var a=5
+    var b=12
+    var c= 12
+    println(a < b)
+    
+    /*El operador && nos ayuda a separar las preguntas si a es menor a b y si b es diferente de c 
+      Para usar && las dos preguntas deben cumplirse para que imprima ya sea false o true*/
+    println(a < b && b != c)
+    
+    /*El operador && nos ayuda a separar las preguntas si a es menor a b o si b es diferente de c 
+      Para usar || solo una pregunta deben cumplirse para que imprima ya sea false o true*/
+    println(a < b || b > c)
+    
+    /*Para usar dos operadores logicos al tiempo es*/
+              // true         &&   false    el resultado es false
+    println((a < b || b == c) && (a > c))
+}
