@@ -1,0 +1,33 @@
+fun main() {
+   arreglos()
+}
+
+fun arreglos(){
+  
+   var diasSemana = arrayOf("Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo")
+   
+   //EL size es para mostrar el tamaño del arreglo
+   println(diasSemana.size)
+   //La funcion get() nos sirve para que nos muestre una posicion en especifico 
+   println(diasSemana.get(6))
+   
+   if(diasSemana.size >=9){
+       println(diasSemana.get(7))
+   }else{
+       println("La semana solo tiene 7 dias")
+   }
+   
+   println(diasSemana.get(0))
+   println(diasSemana.get(1))
+   println(diasSemana.get(2))
+   println(diasSemana.get(3))
+   println(diasSemana.get(4))
+   println(diasSemana.get(5))
+   println(diasSemana.get(6))
+   
+   //La funcion set() nos sirve para cambiar el valor en cualquier posicion del array
+   diasSemana.set(0,"\nInicio")// cambios Lunes por Inicio indicandole que es en la posicion 0
+   
+   println(diasSemana.get(0))
+   
+}
